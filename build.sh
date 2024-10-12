@@ -12,7 +12,7 @@ if [ "$1" != "-v" ]; then
 	echo ""
 	echo "Installing NPM dependencies..."
 
-	npm i
+	pnpm i
 
 	if [[ ! -d "plugins" ]]; then
 		echo "Creating plugins directory..."
@@ -208,7 +208,7 @@ if [[ "$ARGS" == *\ \-t\ * ]]; then
 	echo ""
 	echo "Installing tests..."
 
-	(cd $target/ckeditor &&	npm install && bender init)
+	(cd $target/ckeditor &&	pnpm install && bender init)
 fi
 
 # Clean up `plugins` directory from copied NPM plugins.

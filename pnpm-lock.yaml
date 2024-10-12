@@ -1,0 +1,40 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      ckeditor-plugin-scayt:
+        specifier: https://github.com/WebSpellChecker/ckeditor-plugin-scayt#fcb81290b156fac1cd5e344b7d80e21bfb5177ca
+        version: https://codeload.github.com/WebSpellChecker/ckeditor-plugin-scayt/tar.gz/fcb81290b156fac1cd5e344b7d80e21bfb5177ca
+      ckeditor4-plugin-exportpdf:
+        specifier: ^1.0.6
+        version: 1.0.6(ckeditor4@4.25.0)
+
+packages:
+
+  ckeditor-plugin-scayt@https://codeload.github.com/WebSpellChecker/ckeditor-plugin-scayt/tar.gz/fcb81290b156fac1cd5e344b7d80e21bfb5177ca:
+    resolution: {tarball: https://codeload.github.com/WebSpellChecker/ckeditor-plugin-scayt/tar.gz/fcb81290b156fac1cd5e344b7d80e21bfb5177ca}
+    version: 5.7.0
+
+  ckeditor4-plugin-exportpdf@1.0.6:
+    resolution: {integrity: sha512-gw1n23Ltlq2URoF+0lRiGq2+WV1HlmQcqH1m49GCkDK9ReCXd0TtEwcR2hwmxHDFHys44J8YpFizT3aCTjQFsw==}
+    peerDependencies:
+      ckeditor4: '>=4.6.1'
+
+  ckeditor4@4.25.0:
+    resolution: {integrity: sha512-XXyP+Ws7dkM11Hd+s+YlMfBj1jr61eQQxoqrH7IxcCA78Sr625VW8vOS/y3y+W7mjdTGJds7BpLTQmYsT9HGDA==}
+
+snapshots:
+
+  ckeditor-plugin-scayt@https://codeload.github.com/WebSpellChecker/ckeditor-plugin-scayt/tar.gz/fcb81290b156fac1cd5e344b7d80e21bfb5177ca: {}
+
+  ckeditor4-plugin-exportpdf@1.0.6(ckeditor4@4.25.0):
+    dependencies:
+      ckeditor4: 4.25.0
+
+  ckeditor4@4.25.0: {}
