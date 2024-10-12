@@ -1,3 +1,4 @@
 [submodule "ckeditor"]
 	path = ckeditor
-	url = https://github.com/ckeditor/ckeditor4.git
+	url = git@github.com:monoblaine/ckeditor-dev.git
+	branch = abt-ym
