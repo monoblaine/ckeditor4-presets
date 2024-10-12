@@ -7,3 +7,5 @@ node_modules/
 # - we don't intent to force specific 3rd party dependency version via `package-lock.json` file
 # Such information should be specified in the package.json file.
 package-lock.json
+
+/presets/custom-*-config.js
